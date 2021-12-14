@@ -1,0 +1,182 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-image: linear-gradient(rgb(255, 255, 255, 0.3), rgb(0, 0, 0)),
+    url("../images/background.jpg");
+
+  font-family: Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Lily Script One", cursive;
+  color: palevioletred;
+}
+
+h2 {
+  font-family: "Bree Serif", serif;
+  color: palevioletred;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Bree Serif", serif;
+  color: #5e29b4;
+  font-size: 18px;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+a {
+  color: #5e29b4;
+}
+
+a:hover {
+  color: #5e29b4;
+}
+
+#header {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#nav {
+  margin-bottom: 50px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#nav a {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: palevioletred;
+  text-transform: uppercase;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+#nav a:hover {
+  color: cornflowerblue;
+  text-decoration: none;
+  border-bottom: 1px solid cornflowerblue;
+}
+
+#main {
+  width: 650px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+#main p {
+  margin-bottom: 22px;
+  color: rgb(0, 0, 0);
+  line-height: 30px;
+}
+
+footer {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: cornflowerblue;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.imgLeft {
+  float: left;
+  margin-right: 15px;
+}
+
+.imgRight {
+  float: right;
+  margin-left: 15px;
+}
+
+.quicklinks {
+  font-family: Verdana, sans-serif;
+  font-size: 11px;
+}
+
+.pull-quote {
+  font-family: "Bree Serif", serif;
+  border-left: 3px solid #5e29b4;
+  padding-left: 25px;
+  color: palevioletred !important;
+  font-size: 22px;
+  line-height: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.attractions h3 {
+  margin-top: 28px;
+}
+
+.page-title {
+  background-color: #717171;
+}
+
+.tagline {
+  position: absolute;
+  bottom: -100px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto !important;
+  right: auto !important;
+  bottom: 1.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.carousel-caption span {
+  color: #fff;
+}
+
+.photo-head {
+  border-top: 1px solid #5e29b4;
+  padding-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+#panel,
+#flip {
+  padding: 5px;
+  text-align: center;
+  background-color: palevioletred;
+  border: solid 1px black;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
